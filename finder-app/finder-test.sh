@@ -5,8 +5,6 @@
 set -e
 set -u
 
-make -C "$(dirname "$0")" clean
-make -C "$(dirname "$0")"
 
 WRITER="$(dirname "$0")/writer"
 export WRITER
